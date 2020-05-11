@@ -1,8 +1,11 @@
-import Q120.Solution;
+import Q85.DpMaximumHeightSolution;
 
 public class main {
     public static void main(String arg[]) {
-        Solution solution = new Solution();
-        int result = solution.minimumTotal()
+        DpMaximumHeightSolution solution = new DpMaximumHeightSolution();
+        char[][] input = new char[][] {{'0','1','1','0','1'}, {'1','1', '0', '1', '0'},
+                {'0', '1', '1', '1', '0'}, {'1', '1', '1', '1', '0'},
+                {'1', '1', '1', '1', '1'}, {'0', '0', '0', '0', '0'}};
+        int editDistance = solution.maximalRectangle(input);
     }
 }
