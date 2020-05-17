@@ -1,8 +1,9 @@
-import Q72.Solution;
+import Q312.MyBetterSolution;
 
 public class main {
     public static void main(String arg[]) {
-        Solution solution = new Solution();
-
+        MyBetterSolution solution = new MyBetterSolution();
+        int[] input = new int[]{3,1,5,8};
+        int result = solution.maxCoins(input);
     }
 }
