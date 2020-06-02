@@ -1,9 +1,9 @@
-import Q213.Solution;
+import Q122.PeakValleySolution;
 
 public class main {
     public static void main(String arg[]) {
-        Solution solution = new Solution();
-        int[] input = new int[]{1,2,3,1};
-        int result = solution.rob(input);
+        PeakValleySolution solution = new PeakValleySolution();
+        int[] input = new int[]{2,4,1};
+        int result = solution.maxProfit(input);
     }
 }

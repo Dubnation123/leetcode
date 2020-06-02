@@ -1,5 +1,6 @@
 package Q121;
 
+// 121. Best Time to Buy and Sell Stock
 public class Solution {
     public int maxProfit(int[] prices) {
         if (prices.length == 0 || prices.length == 1) return 0;
