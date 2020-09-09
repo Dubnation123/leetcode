@@ -1,9 +1,12 @@
-import Q123.OnePassSimulationSolution;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 public class main {
     public static void main(String arg[]) {
-        OnePassSimulationSolution solution = new OnePassSimulationSolution();
-        int[] input = new int[]{7,1,5,3,6,4};
-        int result = solution.maxProfit(input);
+        Set<String> set1 = Set.of("Hello", "World", "crazy");
+        Set<String> set2 = new HashSet<>(Arrays.asList("Hello", "World"));
+        System.out.print(set1.containsAll(Collections.emptySet()));
     }
 }
