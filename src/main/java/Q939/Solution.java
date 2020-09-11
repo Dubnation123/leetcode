@@ -3,6 +3,8 @@ package Q939;
 import java.util.Arrays;
 import java.util.Comparator;
 
+//Apparently exceeds time limit
+
 public class Solution {
     public int minAreaRect(int[][] points) {
         int result = Integer.MAX_VALUE;

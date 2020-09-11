@@ -1,12 +1,9 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import Q939.Solution1;
 
 public class main {
     public static void main(String arg[]) {
-        Set<String> set1 = Set.of("Hello", "World", "crazy");
-        Set<String> set2 = new HashSet<>(Arrays.asList("Hello", "World"));
-        System.out.print(set1.containsAll(Collections.emptySet()));
+        int[][] input = new int[][]{{1,1},{1,3},{3,1},{3,3},{4,1},{4,3}};
+        Solution1 solution = new Solution1();
+        int result = solution.minAreaRect(input);
     }
 }
