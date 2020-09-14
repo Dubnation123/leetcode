@@ -1,9 +1,11 @@
-import Q523.Solution1;
+import Q54.Solution;
+
+import java.util.List;
 
 public class main {
     public static void main(String arg[]) {
-        int[] input = new int[]{2,3,4,5};
-        Solution1 solution = new Solution1();
-        boolean result = solution.checkSubarraySum(new int[0], 6);
+        int[][] input = new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+        Solution solution = new Solution();
+        List<Integer> result= solution.spiralOrder(input);
     }
 }
