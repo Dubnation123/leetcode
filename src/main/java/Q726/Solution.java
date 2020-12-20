@@ -1,7 +1,7 @@
 package Q726;
 
 //
-//public class Solution {
+//public class Q228.Solution {
 //    public String countOfAtoms(String formula) {
 //        Map<String, Integer> result = new HashMap<>();
 //        for (char c: formula.toCharArray()) {
